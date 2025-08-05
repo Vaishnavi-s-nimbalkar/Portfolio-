@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML5 Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button class="toggle-btn" onclick="toggleMode()">🌙 Dark Mode</button>
+        <div class="hero">
+            <h1><mark>Vaishnavi Nimbalkar</mark></h1>
+            <p style="font-size:1.3em; margin:0.5em 0 0.2em 0;">Web Developer & Designer passionate about data Science</p>
+            <p style="font-size:1em; color:#e0e0e0;">Crafting modern, accessible, and beautiful web experiences.</p>
+        </div>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <article>
+                <figure>
+                    <img src="https://via.placeholder.com/150" alt="Jane Doe" style="border-radius:50%;width:150px;height:150px;">
+                    <figcaption>Hi, I'm Vaishnavi Nimbalkar, a passionate Wed technologies and data Science with a strong foundation in Python,java ,sql, html,css,js. I love building clean, functional, and user-focused digital experiences that solve real-world problems. With a background in MCA, I've worked on KrishiPradhnya.
+</figcaption>
+                </figure>
+                <p>Hello! I'm <mark>Vaishnavi Nimbalkar</mark>, a creative web developer with a love for <time datetime="2020-01">HTML5</time> and modern web standards.</p>
+                <details>
+                    <summary>More about me</summary>
+                    <p>I’m always exploring new tools and technologies, and I'm driven by a desire to continuously learn and grow in the tech world. My portfolio reflects my dedication to code, creativity, and continuous improvemen</p>
+                </details>
+            </article>
+        </section>
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <ul style="list-style-type: disc; padding-left: 1.5em;">
+                <li>HackerRank Python Basics – 2025</li>
+                <li>HackerRank Problem Solving (Basics) – 2025</li>
+                <li>Data Analytics Job Simulation (Quantim) – 2025</li>
+                <li>Solutions Architecture Job Simulation (AWS) – 2025</li>
+                <li>Google AI/ML Virtual Internship – 2025</li>
+                <li>EduSkills Python Full Stack Developer – 2025</li>
+                <li>Google Android App Development Virtual Internship – 2024</li>
+                <li>Cybersecurity Analyst Job Simulation (TATA) – 2024</li>
+                <li>Enhancing Soft Skills and Personality (NPTEL) Silver+Elite – 2025</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Portfolio Website <small>(<time datetime="2025-07-21">July 2025</time>)</small></h3>
+                <p>This portfolio website is a showcase of my skills, experience, and projects as a web developer and data science enthusiast. It is built using modern <mark>HTML5</mark> semantic elements, CSS3 for responsive and attractive design, and JavaScript for dynamic interactivity such as animated skill bars and dark/light mode toggle. The site is fully responsive, ensuring a seamless experience on both desktop and mobile devices.</p>
+                <ul>
+                    <li>Clean, modern, and accessible UI with a coding-themed hero section</li>
+                    <li>Animated skill bars to visually represent proficiency</li>
+                    <li>Dark/light mode toggle for user preference</li>
+                    <li>Organized sections for About, Projects, Skills, and Contact</li>
+                    <li>External CSS and JS for maintainability</li>
+                    <li>Deployed as a single-page, fast-loading static site</li>
+                </ul>
+                <p>The portfolio reflects my dedication to best practices in web development, attention to detail, and passion for creating user-focused digital experiences.</p>
+            </article>
+            <article>
+                <h3>KrishiPradhnya</h3>
+                <p><li> a web app to guide farmers using soil testing and crop recommendation </li>
+                    <li>Tech Used: HTML, CSS, JavaScript,jdbc, java servlet,MySQL Server, Tomcat</li>  
+                    <li>Included features like farming methods (hydroponics, vertical farming) </li>
+</p>
+            </article>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <article>
+                <h3>HTML5</h3>
+                <div class="skill-bar" data-skill="95">
+                    <div class="skill-bar-fill" style="background:linear-gradient(90deg,#e44d26,#f16529);"></div>
+                    <span class="skill-label">95%</span>
+                </div>
+            </article>
+            <article>
+                <h3>CSS3</h3>
+                <div class="skill-bar" data-skill="90">
+                    <div class="skill-bar-fill" style="background:linear-gradient(90deg,#264de4,#2965f1);"></div>
+                    <span class="skill-label">90%</span>
+                </div>
+            </article>
+            <article>
+                <h3>JavaScript</h3>
+                <div class="skill-bar" data-skill="80">
+                    <div class="skill-bar-fill" style="background:linear-gradient(90deg,#f7df1e,#ffe066);"></div>
+                    <span class="skill-label">80%</span>
+                </div>
+            </article>
+            <article>
+                <h3>Java</h3>
+                <div class="skill-bar" data-skill="80">
+                    <div class="skill-bar-fill" style="background:linear-gradient(90deg,#5382a1,#e76f00);"></div>
+                    <span class="skill-label">80%</span>
+                </div>
+            </article>
+            <article>
+                <h3>Python</h3>
+                <div class="skill-bar" data-skill="80">
+                    <div class="skill-bar-fill" style="background:linear-gradient(90deg,#306998,#ffd43b);"></div>
+                    <span class="skill-label">80%</span>
+                </div>
+            </article>
+            <article>
+                <h3>SQL</h3>
+                <div class="skill-bar" data-skill="90">
+                    <div class="skill-bar-fill" style="background:linear-gradient(90deg,#00758f,#f29111);"></div>
+                    <span class="skill-label">90%</span>
+                </div>
+            </article>
+        </section>
+        <aside>
+            <h2>Contact</h2>
+            <address>
+                Email: <a href="mailto:vnimbalkar334@gmail.com<">vnimbalkar334@gmail.com</a><br>
+                Location: <mark>Amrawati, India</mark>
+            </address>
+            <details>
+                <summary>Social Links</summary>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/vaishnavi-nimbalkar-30517a317/">LinkedIn</a></li>
+                    <li><a href="https://github.com/Vaishnavi-s-nimbalkar">GitHub</a></li>
+                    <li><a href="https://www.hackerrank.com/profile/vnimbalkar334">HackerRank</a></li>
+                    <li><a href="https://leetcode.com/u/Vaishnavi_S_Nimbalkar/">leetcode</a></li>
+                    
+                </ul>
+            </details>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; <time datetime="2025">2025</time> Vaishnavi Nimbalkar. All rights reserved.</p>
+        <p style="font-size:0.9em; color:#aaa;">Made with <span style="color:#e44d26;">&#10084;</span> and HTML5</p>
+    </footer>
+</body>
+</body>
+<script src="script.js"></script>
+</html>
